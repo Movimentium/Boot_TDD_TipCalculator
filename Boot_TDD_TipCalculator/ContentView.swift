@@ -6,7 +6,7 @@ struct ContentView: View {
     @State private var total: String = ""
     @State private var tipPercent: Double = 0.2
     @State private var tip: String?
-    @State private var message: String = "asdf"
+    @State private var message: String = ""
     
     var body: some View {
         NavigationStack {
