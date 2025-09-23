@@ -1,10 +1,5 @@
-//
 //  ContentView.swift
 //  Boot_TDD_TipCalculator
-//
-//  Created by Miguel Gallego on 23/9/25.
-//
-
 import SwiftUI
 
 struct ContentView: View {
