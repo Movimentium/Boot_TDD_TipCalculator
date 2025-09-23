@@ -14,6 +14,7 @@
 		0C7472FC2E83305E0097F1F3 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 0C7472FB2E83305E0097F1F3 /* README.md */; };
 		0C7473042E833E540097F1F3 /* Boot_TDD_TipCalculatorUnitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C7473032E833E540097F1F3 /* Boot_TDD_TipCalculatorUnitTests.swift */; };
 		0C74730C2E83437E0097F1F3 /* TipCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C74730B2E83437E0097F1F3 /* TipCalculator.swift */; };
+		0C74730D2E8343FB0097F1F3 /* TipCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C74730B2E83437E0097F1F3 /* TipCalculator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -223,6 +224,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0C7473042E833E540097F1F3 /* Boot_TDD_TipCalculatorUnitTests.swift in Sources */,
+				0C74730D2E8343FB0097F1F3 /* TipCalculator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
