@@ -14,6 +14,7 @@ struct ContentView: View {
             VStack {
                 TextField("Enter total", text: $total)
                     .textFieldStyle(.roundedBorder)
+                    .accessibilityIdentifier("totalTextField")
                 
                 Picker(selection: $tipPercent) {
                     Text("10%").tag(0.1)
@@ -27,6 +28,7 @@ struct ContentView: View {
                 .onChange(of: tipPercent) {
                     reset()
                 }
+                .accessibilityIdentifier( "tipPicker")
               
                 Button("Calculate Tip") {
                     calculateTip()
