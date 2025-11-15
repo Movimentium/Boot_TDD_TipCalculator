@@ -2,8 +2,14 @@
 //  Boot_TDD_TipCalculator
 import Foundation
 
-enum TipCalculatorError: Error {
+enum TipCalculatorError: Error, CustomStringConvertible {
     case invalidInput
+    
+    var description: String {
+        switch self {
+        case .invalidInput:  "Invalid input"
+        }
+    }
 }
 
 
