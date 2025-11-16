@@ -6,7 +6,7 @@ class when_content_view_is_shown: XCTestCase {
 
     private var app: XCUIApplication!
     
-    override func setUp() {
+    override func setUp() {         // Executed before each test
         app = XCUIApplication()
         continueAfterFailure = false
         app.launch()
@@ -26,6 +26,10 @@ class when_content_view_is_shown: XCTestCase {
         
         XCTAssertEqual(pickerButton.label, "20%")
         XCTAssertEqual(pickerButton.isSelected, true)
+    }
+    
+    override class func tearDown() {   // Executed after each test
+        // Clean up
     }
     
 }
