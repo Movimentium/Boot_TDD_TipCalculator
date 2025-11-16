@@ -35,6 +35,7 @@ struct ContentView: View {
                 }
                 .padding(.top, 32)
                 .buttonStyle(.borderedProminent)
+                .accessibilityIdentifier("calculateTipButton")
               
                 Text(message)
                     .padding(.top, 64)
@@ -42,6 +43,7 @@ struct ContentView: View {
                 Spacer()
                 Text(tip ?? "")
                     .font(.system(size: 54))
+                    .accessibilityLabel("tipText")
                 Spacer()
             }
             .padding()
